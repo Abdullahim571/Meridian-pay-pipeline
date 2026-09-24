@@ -1,6 +1,6 @@
 # Pinned by digest so every build (scan, push, sign) uses the exact same base image.
 # The digest is the multi-arch index; the tag is for readability only. Updated by Dependabot.
-FROM python:3.12.14-slim-trixie@sha256:2f17fc044b579bab302c2e8054d3a686e2cb9a83de48e70534b94cd8ebbe06a9
+FROM python:3.14.7-slim-trixie@sha256:caaf356f40667c496d405780745b9ac25771c189a51dfcc42430d531ea09f8a2
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
